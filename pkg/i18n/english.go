@@ -97,6 +97,7 @@ type TranslationSet struct {
 	Squash                              string
 	LcPickCommit                        string
 	LcRevertCommit                      string
+	LcRebaseCommit                      string
 	LcRewordCommit                      string
 	LcDeleteCommit                      string
 	LcMoveDownCommit                    string
@@ -748,6 +749,7 @@ func EnglishTranslationSet() TranslationSet {
 		Squash:                              "Squash",
 		LcPickCommit:                        "pick commit (when mid-rebase)",
 		LcRevertCommit:                      "revert commit",
+		LcRebaseCommit:                      "rebase checked out branch onto selected commit",
 		LcRewordCommit:                      "reword commit",
 		LcDeleteCommit:                      "delete commit",
 		LcMoveDownCommit:                    "move commit down one",
