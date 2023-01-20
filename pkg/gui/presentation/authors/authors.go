@@ -60,7 +60,7 @@ func AuthorStyle(authorName string) style.TextStyle {
 		return value
 	}
 
-	value := trueColorStyle(authorName)
+    value := style.FgBlue
 
 	authorStyleCache[authorName] = value
 
